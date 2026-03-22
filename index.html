@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое Портфолио</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключаем шрифт Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Навигация -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">Иван.Dev</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Привет, я <span class="highlight">Иван</span></h1>
+            <p>Frontend Разработчик & Дизайнер</p>
+            <a href="#projects" class="btn">Смотреть работы</a>
+        </div>
+    </section>
+
+    <!-- Секция Обо мне -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <p>Я начинающий веб-разработчик, увлеченный созданием красивых и функциональных сайтов. Люблю изучать новые технологии, такие как React и Node.js. Всегда открыт к интересным проектам.</p>
+            
+            <div class="skills">
+                <h3>Мои навыки:</h3>
+                <div class="skill-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>VS Code</span>
+                    <span>Git</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция Проекты -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2>Мои Проекты</h2>
+            <div class="projects-grid">
+                <!-- Карточка проекта 1 -->
+                <div class="project-card">
+                    <div class="card-image" style="background-color: #ff0000;"></div>
+                    <h3>Лендинг пейдж</h3>
+                    <p>Адаптивная верстка для кофейни.</p>
+                    <a href="#" class="btn-small">Посмотреть код</a>
+                </div>
+                <!-- Карточка проекта 2 -->
+                <div class="project-card">
+                    <div class="card-image" style="background-color: #444;"></div>
+                    <h3>Калькулятор</h3>
+                    <p>Приложение на чистом JavaScript.</p>
+                    <a href="" class="btn-small">Посмотреть код</a>
+                </div>
+                <!-- Карточка проекта 3 -->
+                <div class="project-card">
+                    <div class="card-image" style="background-color: #555;"></div>
+                    <h3>Блог</h3>
+                    <p>Простой блог на HTML и CSS.</p>
+                    <a href="ч" class="btn-small">Посмотреть код</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция Контакты -->
+    <section id="contact" class="section">
+        <div class="container contact-content">
+            <h2>Связаться со мной</h2>
+            <p>Я открыт для предложений о работе.</p>
+            <a href="mailto:email@example.com" class="btn">Написать мне</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Иван. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
